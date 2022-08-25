@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+
+}
+.A{
+    display: flex;
+    padding: 40px 120px;
+    color: wheat;
+    font-size: 30px;
+}
+.links{
+    padding-left: 270px;
+    padding-top: 30px;
+}
+.links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.links ul a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 25px;
+}
+nav ul li::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.links ul li:hover::after{
+    width: 100%;
+
+}
+h2{
+    position: absolute;
+    left: 180px;
+    top: 300px;
+}
+span{
+    color: yellow;
+}
+.a{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+.search-icon .fa{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.search-icon .fas{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.search-icon .fab{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.b{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.b .fab{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.b .fab:hover{
+    box-shadow: 0px 0px 0px 10px #000;
+}
+.sign{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0,0.3);
+    background: #fff;
+    position: absolute;
+    left: 1300px;
+    top: 160px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5));
+}
+.sign h1{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.in{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px -20px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px -20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit{
+    background-color: yellow;
+    color: #000;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+p{color: yellow;}
+video{
+    position: absolute;
+    left: 220px;
+    top:400px;
+}
+a{
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+    color: black;
+}
+h2:hover{
+    box-shadow: 0px 0px 50px  yellow;
+    transition: 0.8s;
+}
+button:hover{
+    box-shadow: 0px 0px 20px yellow;
+
+}
+.teacherimg{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.studentimg{
+    position: absolute;
+    top: 39.2%;
+    left: 59.7%;
+}
+.clock{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top:68%;
+    left: 37%;
+}
